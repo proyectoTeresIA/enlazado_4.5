@@ -8,7 +8,7 @@ Para este primer experimento se han usado como base la Labour Law Terminology (h
 A su vez, estos términos se han proyectado sobre el documento del Estatuto de los Trabajadores (2015), ya que muchos de ellos se han extraído de esa fuente, aunque no todos. Por ello, aquellos términos que no se encuentran en los estatutos se han eliminado, quedando finalmente 64 enlaces. El texto del Estatuto de los Trabajadores aparece dividido por artículos y párrafos en la carpeta llamada files. Después de ese primer preprocesado, se han dividido los términos de la terminología Labour Law y de Eurovoc en los archivos: labour_law_literales.txt y eurovoc_literales.txt. Tras ello, se han proyectado los términos del archivo labour_law_literales.txt a través de todos los artículos de los estatutos y se han extraído todas sus apariciones. El código para ello es el denominado contextos_estatutos.ipynb. Las apariciones están formadas por las 20 palabras previas al término y todas las palabras posteriores hasta el primer punto que aparezca. Los términos junto a sus contextos se encuentran en el documento llamado terminos_contextos.csv. 
 
 
-3. Experimentos generación de contexto
+2. Experimentos generación de contexto
 
 Tras haber extraído todos los contextos de cada término, se presupone que al tratarse de un corpus de dominio tan específico, se puede determinar que cada término cuenta con el significado más relevante en dicho corpus:
    
@@ -36,7 +36,7 @@ Los archivos con las ventanas de contexto generadas se denominan mediante zero-s
     E. Llama-3.1-8B-Instruct: terminos_inst_1shot_limpio.csv para los términos del documento de los Estatutos y eurovoc_inst_3shot_limpio.csv para los términos de Eurovoc.
 
 
-5. Experimentos enlazado de términos
+3. Experimentos enlazado de términos
 
      A. Embeddings:
    
