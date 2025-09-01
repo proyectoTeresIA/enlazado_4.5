@@ -12,20 +12,20 @@ A su vez, estos términos se han proyectado sobre el documento del Estatuto de l
 
 Tras haber extraído todos los contextos de cada término, se ha generado una ventana de contexto para los términos con los siguientes modelos:
    
-    A. google/flan-t5-base, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb
+    A. google/flan-t5-base, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb para los términos y sus contextos extraídos del documento de los Estatutos. El código para la generación de ventanas de contexto para los términos y su información semántica extraída de Eurovoc es generación_contextos_flan_falcon_llama8b-eurovoc.ipynb. 
     
-    B. tiiuae/falcon-rw-1b, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb
+    B. tiiuae/falcon-rw-1b, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb para los términos y sus contextos extraídos del documento de los Estatutos. El código para la generación de ventanas de contexto para los términos y su información semántica extraída de Eurovoc es generación_contextos_flan_falcon_llama8b-eurovoc.ipynb.
     
     C. meta-llama/Llama-3.2-1B, el notebook que contiene el código es generación_contextos_llama1b.ipynb
     
-    D. nvidia/Llama-3.1-Nemotron-Nano-8B-v1, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb
+    D. nvidia/Llama-3.1-Nemotron-Nano-8B-v1, el notebook que contiene el código es generación_contextos_flan_falcon_llama8b.ipynb para los términos y sus contextos extraídos del documento de los Estatutos. El código para la generación de ventanas de contexto para los términos y su información semántica extraída de Eurovoc es generación_contextos_flan_falcon_llama8b-eurovoc.ipynb.
     
     E. meta-llama/Llama-3.1-8B-Instruct, el notebook que contiene el código es generación_contextos.ipynb para los términos del documento de los Estatutos y generación_contextos-eurovoc.ipynb para los términos de Eurovoc. 
 
 
 Los archivos con las ventanas de contexto generadas se denominan mediante zero-shot prompting:
 
-    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv
+    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv y eurovoc_terminos_ventanas_contexto_flan.csv
     
     B. Falcon-rw-1b: terminos_ventanas_contexto_falcon.csv
     
@@ -33,7 +33,7 @@ Los archivos con las ventanas de contexto generadas se denominan mediante zero-s
     
     D. Llama-3.1-Nemotron-Nano-8B-v1: terminos_ventana_contexto_llama8b.csv
 
-    E. Llama-3.1-8B-Instruct: terminos_inst_1shot_limpio.csv para los términos del documento de los Estatutos y eurovoc_inst_3shot_limpio.csv para los términos de Eurovoc.
+    E. Llama-3.1-8B-Instruct: terminos_contexto_generados.csv (zero-shot), terminos_contexto_generado_inst_1shot.csv y terminos_contexto_generado_inst_3shot.csv para los términos del documento de los Estatutos. Para Eurovoc: eurovoc_terminos_contexto_generado_llama8b_inst_0-shot.csv, eurovoc_contexto_generado_llama8b_inst_1shot.csv y eurovoc_contexto_generado_llama8b_3shot.csv.
 
 
 3. Experimentos enlazado de términos
@@ -50,4 +50,8 @@ Los archivos con las ventanas de contexto generadas se denominan mediante zero-s
 
    
 
+4. Evaluación de los enlaces generados
 
+   A. Set de datos de evaluación: gold_standard_enlazado.csv
+
+   B. Evaluación de los enlaces detectados: matches_en_gold_standard.csv (zero-shot), matches_en_gold_standard_one_shot.csv y matches_en_gold_standard_two_shot.csv.
