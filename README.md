@@ -52,6 +52,8 @@ Los archivos con las ventanas de contexto generadas se denominan mediante zero-s
 
 4. Evaluación de los enlaces generados
 
-   A. Set de datos de evaluación: gold_standard_enlazado.csv
+   A. Set de datos de evaluación: gold_standard_enlazado.csv.
 
    B. Evaluación de los enlaces detectados: matches_en_gold_standard.csv (zero-shot), matches_en_gold_standard_one_shot.csv y matches_en_gold_standard_two_shot.csv.
+
+   C. El código para la comparación de los enlaces generados por el modelo y los enlaces del set de evaluación se encuentra también en el notebook llamado enlazado_LLaMA3.ipynb.
