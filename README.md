@@ -23,7 +23,7 @@ Tras haber extraído todos los contextos de cada término, se ha generado una ve
     E. meta-llama/Llama-3.1-8B-Instruct, el notebook que contiene el código es generación_contextos.ipynb para los términos del documento de los Estatutos y generación_contextos-eurovoc.ipynb para los términos de Eurovoc. 
 
 
-Los archivos con las ventanas de contexto generadas se denominan mediante zero-shot prompting:
+Los archivos con las ventanas de contexto generadas:
 
     A. Flan-t5-base: terminos_ventanas_contexto_flan.csv y eurovoc_terminos_ventanas_contexto_flan.csv
     
