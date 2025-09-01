@@ -25,13 +25,13 @@ Tras haber extraído todos los contextos de cada término, se ha generado una ve
 
 Los archivos con las ventanas de contexto generadas se denominan mediante zero-shot prompting:
 
-    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv
+    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv y eurovoc_terminos_ventanas_contexto_flan.csv
     
     B. Falcon-rw-1b: terminos_ventanas_contexto_falcon.csv y eurovoc_terminos_ventanas_contexto_falcon.csv
     
-    C. Llama-3.2-1B: terminos_ventanas_contexto_llama1b.csv
+    C. Llama-3.2-1B: terminos_ventanas_contexto_llama1b.csv y eurovoc_terminos_ventanas_contexto_llama1b.csv
     
-    D. Llama-3.1-Nemotron-Nano-8B-v1: terminos_ventana_contexto_llama8b.csv
+    D. Llama-3.1-Nemotron-Nano-8B-v1: terminos_ventana_contexto_llama8b.csv y eurovoc_terminos_ventana_contexto.llama8b.csv
 
     E. Llama-3.1-8B-Instruct: terminos_contexto_generados.csv (zero-shot), terminos_contexto_generado_inst_1shot.csv y terminos_contexto_generado_inst_3shot.csv para los términos del documento de los Estatutos. Para Eurovoc: eurovoc_terminos_contexto_generado_llama8b_inst_0-shot.csv, eurovoc_contexto_generado_llama8b_inst_1shot.csv y eurovoc_contexto_generado_llama8b_3shot.csv.
 
