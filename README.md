@@ -25,9 +25,9 @@ Tras haber extraído todos los contextos de cada término, se ha generado una ve
 
 Los archivos con las ventanas de contexto generadas se denominan mediante zero-shot prompting:
 
-    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv y eurovoc_terminos_ventanas_contexto_flan.csv
+    A. Flan-t5-base: terminos_ventanas_contexto_flan.csv
     
-    B. Falcon-rw-1b: terminos_ventanas_contexto_falcon.csv
+    B. Falcon-rw-1b: terminos_ventanas_contexto_falcon.csv y eurovoc_terminos_ventanas_contexto_falcon.csv
     
     C. Llama-3.2-1B: terminos_ventanas_contexto_llama1b.csv
     
